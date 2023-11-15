@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 
 import SideMenu from "../SideMenu/SideMenu";
 import Folders from "../Folders/Folders";
+import MainWindow from "../MainWindow/MainWindow";
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -31,7 +32,9 @@ const MainPage = () => {
           </Item>
         </Grid>
           <Grid item xs={9} className='MainWindow'>
-            <Item sx={{height:'100%'}}>Main window</Item>
+            <Item sx={{height:'100%'}}>
+              <MainWindow/>
+            </Item>
           </Grid>
 
         </Grid>
