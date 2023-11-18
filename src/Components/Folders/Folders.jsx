@@ -37,8 +37,8 @@ const Folders = () => {
   return(
       <Box sx={Container}>
         <Typography variant="h4" sx={FolderLabel}>Projects</Typography>
-        <Button variant="outlined" sx={AddProjectButton}>Add new project</Button>
-        <Button variant="outlined" sx={AddProjectButton}>Add new task</Button>
+        <Button variant="outlined" sx={AddProjectButton}>New project</Button>
+        <Button variant="outlined" sx={AddProjectButton}>New task</Button>
         <TreeView
             aria-label="file system navigator"
             defaultCollapseIcon={<StarIcon sx={{color:amber[300]}}/>}

@@ -5,7 +5,7 @@ import uuid4 from "uuid4";
 
 const gridContainer = {
   display: 'grid',
-  gridTemplateColumns: 'auto auto auto auto auto auto',
+  gridTemplateColumns: 'auto auto auto auto auto',
 padding: '10px',
 }
 
