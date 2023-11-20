@@ -33,7 +33,10 @@ const TaskContainer = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  border: '1px solid black'
+  border: '2px dashed blue',
+  width: "96%",
+  margin: '10px 2%',
+  borderRadius: '20px'
 }
 
 const kanbanData = {
