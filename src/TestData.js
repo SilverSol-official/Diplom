@@ -40,4 +40,25 @@ export let tasks = [{
   status: "Not started",
   startDate: "N/D",
   dateEnd: "N/D",
+}, {
+  title: "Task 7",
+  id: '7',
+  description: "bla bla bla",
+  status: "Not started",
+  startDate: "N/D",
+  dateEnd: "N/D",
+}, {
+  title: "Task 8",
+  id: '8',
+  description: "bla bla bla",
+  status: "Not started",
+  startDate: "N/D",
+  dateEnd: "N/D",
+}, {
+  title: "Task 9",
+  id: '9',
+  description: "bla bla bla",
+  status: "Not started",
+  startDate: "N/D",
+  dateEnd: "N/D",
 }];
