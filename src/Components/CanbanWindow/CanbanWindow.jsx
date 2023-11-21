@@ -36,7 +36,9 @@ const TaskContainer = {
   border: '2px dashed blue',
   width: "96%",
   margin: '10px 2%',
-  borderRadius: '20px'
+  borderRadius: '20px',
+  maxHeight: '560px', // Set a fixed height for the container
+  overflowY: 'auto',
 }
 
 const kanbanData = {
@@ -89,7 +91,7 @@ const KanbanWindow = () => {
                     // const key = uuid4();
                     if (item.status === 'Not started') {
                       return (
-                        <Draggable key={item.id} draggableId={item.id} index={index}  >
+                        <Draggable key={item.id} draggableId={item.id} index={index} >
                           {(provided) => (
                             <div
                               className="task"
