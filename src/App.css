@@ -8,6 +8,16 @@
   pointer-events: none;
 }
 
+.NameInput {
+  background: none;
+  border: none;
+  font-size: x-large;
+}
+.NameInput:focus {
+  background: white;
+  border: 1px solid grey;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
